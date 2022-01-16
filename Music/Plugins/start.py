@@ -24,8 +24,8 @@ def start_pannel():
                 InlineKeyboardButton(text="•COMMAND MENU•", url="https://telegra.ph/Command-dzMusic-01-03")
             ],
             [ 
-                InlineKeyboardButton(text="QUOTES CHANNEL", url="https://t.me/beauthink"),
-                InlineKeyboardButton(text="•DzL•", url="https://t.me/vidraplay")
+                InlineKeyboardButton(text="Group hunters", url="https://t.me/hx_v2"),
+                InlineKeyboardButton(text="•Owner•", url="https://t.me/vidraplay")
             ],
     ]
     return "🎛  **This is Music Music Bot**", buttons
@@ -38,7 +38,7 @@ pstart_markup=InlineKeyboardMarkup(
                 [InlineKeyboardButton("•Cᴏᴍᴍᴀɴᴅꜱ•", url=f"https://telegra.ph/Command-dzMusic-01-03")],
                 [
                     InlineKeyboardButton(
-                        "CHANNEL", url=f"??"), 
+                        "Group hunters", url=f"https://t.me/hx_v2"), 
                     InlineKeyboardButton(
                         "Group hunters", url=f"https://t.me/hx_v2")
                 ],
