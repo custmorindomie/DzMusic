@@ -1,13 +1,13 @@
 {
-    "name": "dzmusic",
-    "logo": "https://telegra.ph/file/ac60081f272743635a48d.jpg",
+    "name": "kawaiimusic",
+    "logo": "https://telegra.ph/file/57a42aca0cb74971259c6.jpg",
     "description": "ini tu repo music ajg, tapi sbnernya repo nya nyuri kwok",
     "keywords": [
         "music", 
         "voice chat", 
         "telegram"
     ],
-    "repository": "https://github.com/itsdzl/dzmusic",
+    "repository": "https://github.com/custmorindomie/dzmusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
