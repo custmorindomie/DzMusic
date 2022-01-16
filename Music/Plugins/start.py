@@ -25,7 +25,7 @@ def start_pannel():
             ],
             [ 
                 InlineKeyboardButton(text="QUOTES CHANNEL", url="https://t.me/beauthink"),
-                InlineKeyboardButton(text="•DzL•", url="https://t.me/justDzL")
+                InlineKeyboardButton(text="•DzL•", url="https://t.me/vidraplay")
             ],
     ]
     return "🎛  **This is Music Music Bot**", buttons
@@ -38,11 +38,11 @@ pstart_markup=InlineKeyboardMarkup(
                 [InlineKeyboardButton("•Cᴏᴍᴍᴀɴᴅꜱ•", url=f"https://telegra.ph/Command-dzMusic-01-03")],
                 [
                     InlineKeyboardButton(
-                        "QUOTES CHANNEL", url=f"https://t.me/beauthink"), 
+                        "CHANNEL", url=f"??"), 
                     InlineKeyboardButton(
-                        "Distant Friends", url=f"https://t.me/distanfriends")
+                        "Group hunters", url=f"https://t.me/hx_v2")
                 ],
-                [ InlineKeyboardButton("•DzL•", url=f"https://t.me/justDzL"),]
+                [ InlineKeyboardButton("•Owner•", url=f"https://t.me/vidraplay"),]
 
             ]
         )
@@ -85,7 +85,7 @@ async def play(_, message: Message):
         user_name = message.from_user.first_name
         rpk = "["+user_name+"](tg://user?id="+str(user_id)+")" 
         await app.send_message(message.chat.id,
-            text=f"**Hallo** {rpk}**!**\n\n**This is music bot owned by** @JustDzL\n**Bot is allowed to play music in your voice group call.**\n\n**Cara make bot nya tinggal klik tombol di bawah.**\n\n**Note!**\n**jangan lupa mandi kak, u bau.**",
+            text=f"**Hallo** {rpk}**!**\n\n**This is music bot owned by** @vidraplay\n**Bot is allowed to play music in your voice group call.**\n\n**Cara make bot nya tinggal klik tombol di bawah.**\n\n**Note!**\n**jangan lupa mandi kak, u bau.**",
             parse_mode="markdown",
             reply_markup=pstart_markup,
             reply_to_message_id=message.message_id
